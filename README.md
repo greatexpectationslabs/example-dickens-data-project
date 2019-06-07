@@ -16,7 +16,6 @@ Did his _titles_ get longer as his career progressed?
 
 Note: this "productionized" script retrains the model and exports a few parameters of interest.
 
-## Directory structure
 ```
 .
 ├── README.md
