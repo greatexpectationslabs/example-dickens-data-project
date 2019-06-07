@@ -1,15 +1,6 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import statsmodels.formula.api as sm
 
-get_ipython().run_line_magic('matplotlib', 'inline')
-
-import matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -68,13 +59,6 @@ df.title_len.hist()
 
 
 plt.scatter(df.year, df.title_len)
-
-
-# In[11]:
-
-
-result = sm.Logit(df[["is_novel"]], df.year).fit()
-result.summary2()
 
 
 # In[14]:
