@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # In[2]:
 
 
-df = pd.read_csv("../data/notable_works_by_charles_dickens.csv")
+df = pd.read_csv("../data/notable_works_by_charles_dickens/notable_works_by_charles_dickens.csv")
 
 
 # In[3]:
